@@ -40,6 +40,7 @@ public class FXMLController implements Initializable {
 
     @FXML
     private JFXTextField age;
+    private string Age;
 
     @FXML
     private JFXTextField foot;
@@ -88,6 +89,10 @@ public class FXMLController implements Initializable {
                  label.setStyle("-fx-background-color: #ff01d4;");
             
             }
+    }
+    
+    public String getAge() {
+        return Age;
     }
      @FXML
     void reset(ActionEvent event) {
