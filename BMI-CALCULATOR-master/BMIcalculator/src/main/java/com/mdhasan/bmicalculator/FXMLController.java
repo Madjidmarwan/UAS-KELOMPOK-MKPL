@@ -40,7 +40,7 @@ public class FXMLController implements Initializable {
 
     @FXML
     private JFXTextField age;
-    private string Age;
+    private string AGE;
 
     @FXML
     private JFXTextField foot;
