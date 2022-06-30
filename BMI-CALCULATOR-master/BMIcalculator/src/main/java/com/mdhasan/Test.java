@@ -10,7 +10,7 @@ public class AgeTest {
 	public void testAge() {
 		calculate AgeTest = new calculate();
 		
-		assertEquals(testAge.getAge(), 9);
+		assertEquals(testAge.getAge(), 10);
 		
 	}
 
