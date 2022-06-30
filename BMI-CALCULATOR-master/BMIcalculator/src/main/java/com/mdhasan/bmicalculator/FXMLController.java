@@ -92,7 +92,7 @@ public class FXMLController implements Initializable {
     }
     
     public String getAge() {
-        return Age;
+        return AGE;
     }
      @FXML
     void reset(ActionEvent event) {
